@@ -8,7 +8,8 @@
 
 <td>
 
-<img src="cliff.jpg" width="110%"></img>
+<img src="cliff.jpg" width="110%"id="pic"
+onmouseover="change1()" onmouseout="change2()"></img>></img>
 
 </td>
 
@@ -33,7 +34,7 @@
 
 <h1>范竣傑</h1>
 
-<h2>Jerry Fan</h2>
+<h2 id="h2text">Jerry Fan</h2>
 
 個人網頁：<a href="https://www1.pu.edu.tw/~tcyang">https://www1.pu.edu.tw/~tcyang</a><br>
 
@@ -59,6 +60,27 @@ h1 {color:blue; font-size:60px;}
 h2 {color:#33ff33; font-size:40px;}
 
 </style>
+
+<script>
+
+function change1() {
+
+document.getElementById("pic").src = "mountain.jpg";
+
+document.getElementById("h2text").innerText = "靜宜資管";
+
+}
+
+function change2() {
+
+document.getElementById("pic").src = "cliff.jpg";
+
+document.getElementById("h2text").innerText = "Tzyy-Ching Yang";
+
+}
+
+</script>
+
 </head>
 
 大象席地而坐電影配樂<br>
@@ -73,7 +95,21 @@ h2 {color:#33ff33; font-size:40px;}
 
 <iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
 
-<body>
-	
-</body>
+<table width="70%">
+
+<tr>
+
+<td>
+
+</td>
+
+<td>
+
+</td>
+
+</tr>
+
+</table>
+
+
 </html>
